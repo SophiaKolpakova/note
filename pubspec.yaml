@@ -1,0 +1,32 @@
+name: test_note
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  path: ^1.8.0
+  equatable: ^2.0.3
+  dartz: ^0.10.1
+  provider: ^6.1.2
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.14
+  connectivity_plus: ^6.0.3
+  image_picker: ^0.8.4+8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
